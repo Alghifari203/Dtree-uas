@@ -71,13 +71,13 @@ Membaca data csv
 df = pd.read_csv('/content/Hypertension/hypertension_data.csv')
 df.head()
 ```
-![image1](head.png)
+![image1](SS/head.png)
 
 Melihat Type data pada setiap kolom
 ``` Python
 df.info() 
 ```
-![image1](info.png)
+![image1](SS/info.png)
 
 menghilangkan nilai yang tidak dibutuhkan
 ``` Python
@@ -88,13 +88,13 @@ sebelum
 ``` Python
 df.sample()
 ```
-![image1](sample1.png)
+![image1](SS/sample1.png)
 
 sesudah hilang nilai
 ``` Python
 df.sample()
 ```
-![image1](sample2.png)
+![image1](SS/sample2.png)
 
 ### Variabel-variabel pada Travel Insurance Prediction Data adalah sebagai berikut:
 
@@ -119,7 +119,7 @@ menampilkan status pasien pada setiap nilai yang ada
 df.hist(figsize=(20,20))
 plt.show()
 ```
-![image1](eda1.png)
+![image1](SS/eda1.png)
 
 menampilkan status target 
 ``` Python
@@ -133,7 +133,7 @@ menampilkan representasi tingkat detak jantung pasien
 print(df['thalach'].value_counts())
 _ = sns.countplot(x='thalach', data=df)
 ```
-![image1](eda3.png)
+![image1](SS/eda3.png)
 
 menampilkan jumlah data berdasarkan physiq health
 ``` Python
@@ -147,14 +147,14 @@ for col in df.columns:
     i+=1
 plt.show()
 ```
-![image1](eda4.png)
+![image1](SS/eda4.png)
 
 menampilkan cholesterol pasien 
 ``` Python
 print(df['chol'].value_counts())
 _ = sns.countplot(x='chol', data=df)
 ```
-![image1](eda5.png)
+![image1](SS/eda5.png)
 
 ## Data Preprocessing
 Sebelum data di modeling kita lakukan proses data agar data tersebut lebih matang untuk di pakai.
@@ -264,10 +264,10 @@ _ = tree.plot_tree(model,
                    class_names=['0','1'],
                    filled = True)
 ```
-![image1](visual.png)
+![image1](SS/visual.png)
 
 ## Deployment
-![image](app.png)
+![image](SS/app.png)
 
 
 [linkStreamlit](https://dtree-uas.streamlit.app/)
