@@ -1,7 +1,7 @@
 # Laporan Proyek Machine Learning
 ### Nama : M. Fadhil Alghifari
 ### Nim : 211351078
-### Kelas : IF Pagi B
+### Kelas : IF Malam A
 
 ## Domain Proyek
 Proyek ini memiliki tujuan untuk mengembangkan sistem prediksi yang dapat menilai potensi risiko penyakit stroke pada individu. Dengan menggunakan metode analisis data dan penerapan machine learning, proyek ini akan memanfaatkan data historis dan variabel-variabel terkait untuk merancang model prediktif yang dapat memberikan estimasi tingkat risiko terjadinya penyakit stroke pada seseorang. Hasil prediksi ini diharapkan dapat memberikan pandangan lebih jauh mengenai potensi risiko kesehatan pada individu yang bersangkutan
