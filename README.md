@@ -126,7 +126,7 @@ menampilkan status target
 print(df['target'].value_counts())
 _ = sns.countplot(x='target', data=df)
 ```
-![image1](eda2.png)
+![image1](SS/eda2.png)
 
 menampilkan representasi tingkat detak jantung pasien 
 ``` Python
